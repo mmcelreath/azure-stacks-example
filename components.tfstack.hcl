@@ -5,8 +5,8 @@ component "rg" {
   source = "./rg"
 
   inputs = {
-    resource_group_name     = "stacks-example-resources"
-    resource_group_location = "East US"
+    resource_group_name     = "stacks-example-resources-${var.environment}"
+    resource_group_location = "eastus2"
   }
 
   providers = {

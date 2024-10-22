@@ -22,6 +22,8 @@ variable "client_id" { type = string }
 variable "subscription_id" { type = string }
 variable "tenant_id" { type = string }
 
+variable "environment" { type = string }
+
 
 provider "azurerm" "this" {
   config {

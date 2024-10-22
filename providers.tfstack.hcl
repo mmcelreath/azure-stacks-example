@@ -21,7 +21,8 @@ variable "identity_token" {
 variable "client_id" { type = string }
 variable "subscription_id" { type = string }
 variable "tenant_id" { type = string }
-variable "identity_token_file" { type = string }
+
+# variable "identity_token_file" { type = string }
 
 
 provider "azurerm" "this" {

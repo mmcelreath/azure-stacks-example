@@ -8,9 +8,9 @@ identity_token "azurerm" {
 
 deployment "production" {
   inputs = {
-    # identity_token = identity_token.azurerm.jwt
+    identity_token = identity_token.azurerm.jwt
 
-    identity_token_file = identity_token.azurerm.jwt_filename
+    # identity_token_file = identity_token.azurerm.jwt_filename
 
     client_id       = "71975bc3-1447-42bf-9415-f13200cf91fe"
     subscription_id = "4a2ff90e-c796-4555-acdb-1bff040071db"
